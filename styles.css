@@ -1,3 +1,16 @@
 body {
   background-color: #bbb;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:50px;
+
+}
+.bodytitle {
+  background-color: #c40;
+  color: #fff;
+  text-align:center;
+  font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 20px;
 }
