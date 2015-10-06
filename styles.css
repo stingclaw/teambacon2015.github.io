@@ -1,16 +1,53 @@
 body {
-  background-color: #bbb;
+  background-color: #999;
   margin-left:50px;
   margin-right:50px;
   margin-top:50px;
-
+  font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-size:14px;
+}
+td a {
+  text-decoration: none;
+  color: #fff;
 }
 .bodytitle {
-  background-color: #c40;
+  /* Update Background Colors for .bodytitle, .bodypages */
+  background-color: #b30;
   color: #fff;
   text-align:center;
   font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
   font-weight: 800;
   font-size: 40px;
   padding: 20px;
+}
+.bodypages {
+  font-family:"Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight:bold;
+  color: #fff;
+  padding:10px;
+  text-align:center;
+}
+td.bodypages-cell {
+  padding:15px;
+  background-color: #003c4d;
+}
+td.bodypages-cell-alt {
+  padding:15px;
+  background-color: #005870;
+}
+textbody {
+  text-align:justify;
+  margin-left:20px;
+  color: #fff;
+  background-color: #555;
+  margin-right:20px;
+}
+textbody div {
+  background-color:#555;
+  color: #fff;
+  padding:10px;
+}
+a {
+  text-decoration: none;
+  color: #db0;
 }
