@@ -5,6 +5,7 @@ body {
   margin-top:50px;
   font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
   font-size:14px;
+  line-height: 2em;
 }
 td a {
   text-decoration: none;
@@ -12,12 +13,14 @@ td a {
 }
 .bodytitle {
   /* Update Background Colors for .bodytitle, .bodypages */
-  background-color: #b30;
+  background-image: url();
+  background-size:contain;
   color: #fff;
   text-align:center;
   font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
   font-weight: 800;
   font-size: 40px;
+  letter-spacing: 10px;
   padding: 20px;
 }
 .bodypages {
@@ -60,4 +63,8 @@ h2 {
   color: #fff;
   padding:10px;
   text-align:center;
+}
+.nav-container {
+  padding:1px;
+  background: linear-gradient(to bottom, #999,#999)
 }
