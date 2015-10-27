@@ -12,6 +12,7 @@ td a {
   /* Update Background Colors for .bodytitle, .bodypages */
   background-image: url("http://teambacon2015.github.io/Assets/Images/TeamBacon_Background.png");
   background-size: 100%;
+  background-attachment: fixed;
   color: #fff;
   text-align:center;
   font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
