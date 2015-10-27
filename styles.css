@@ -70,11 +70,12 @@ h2 {
   padding:20px;
   background-color: #003c4d;
   border: 5px solid #aaa;
-  font-size:30px;
+  font-size:37px;
   width:auto;
   margin:auto;
   padding-left: 0px;
   padding-right:0px;
+  line-height: 45px;
 }
 .spacer-top {
   height:50px;
