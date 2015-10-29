@@ -24,4 +24,10 @@
   .image-width {
     width:200px;
   }
+  .bodypages-cell {
+    font-size: 12px;
+  }
+  .bodypages-cell-alt {
+    font-size: 12px;
+  }
 }
