@@ -1,0 +1,131 @@
+body {
+  background-color: #999;
+  font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-size:14px;
+  line-height: 2em;
+}
+td a {
+  text-decoration: none;
+  color: #fff;
+}
+.bodytitle {
+  /* Update Background Colors for .bodytitle, .bodypages */
+  background-image: url("http://teambacon2015.github.io/Assets/Images/TeamBacon_Background.png");
+  background-size: contain;
+  background-attachment: fixed;
+  color: #fff;
+  text-align:center;
+  font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding: 50px;
+  border: 5px solid #ccc;
+}
+.bodypages {
+  font-family:"Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight:bold;
+  color: #fff;
+  padding:10px;
+  text-align:center;
+}
+td.bodypages-cell {
+  padding:15px;
+  background-color: #003c4d;
+}
+td.bodypages-cell-alt {
+  padding:15px;
+  background-color: #005870;
+}
+textbody {
+  text-align:justify;
+  margin-left:20px;
+  color: #fff;
+  background-color: #555;
+  margin-right:20px;
+}
+textbody div {
+  background-color:#555;
+  color: #fff;
+  padding:10px;
+}
+a {
+  text-decoration: none;
+  color: #db0;
+}
+h2 {
+  font-variant-caps: small-caps;
+}
+.inputbutton {
+  font-family:"Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight:bold;
+  color: #fff;
+  padding:10px;
+  text-align:center;
+}
+.site-container {
+  background-color: #424242;
+  padding:10px;
+  margin:20px;
+}
+.title-container {
+  padding:20px;
+  background-color: #003c4d;
+  border: 5px solid #aaa;
+  font-size:37px;
+  width:auto;
+  margin:auto;
+  text-align: center;
+  padding-left: 0px;
+  padding-right:0px;
+  line-height: 45px;
+}
+.spacer-top {
+  height:50px;
+}
+footer {
+  padding:10px;
+  color:#fff;
+  text-align: center;
+}
+.h1header {
+  text-align: left;
+}
+.margin-auto {
+  margin:auto;
+}
+.image-width {
+  margin:10px;
+}
+h1,h2,h3,h4,h5,h6 {
+  text-align: left;
+}
+a:hover {
+  color:#f7dc44;
+  font-size: 110%;
+}
+
+@media screen and (min-width:0px) and (max-width:499px) {
+  .site-container {
+  }
+  body {
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:839px) {
+  .site-container {
+    width:80%;
+    margin: auto;
+  }
+  body {
+  }
+}
+
+@media screen and (min-width:840px) {
+  .site-container {
+    width:700px;
+    margin: auto;
+  }
+  body {
+  }
+}
