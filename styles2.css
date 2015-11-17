@@ -1,0 +1,69 @@
+body {
+  background-color: #999;
+  font-family: "Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-size:14px;
+  line-height: 2em;
+  padding: 0;
+}
+td a {
+  text-decoration: none;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #db0;
+}
+h1 {
+  color:#fff;
+  text-align: center;
+}
+h2 {
+  font-variant-caps: small-caps;
+}
+.inputbutton {
+  font-family:"Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
+  font-weight:bold;
+  color: #fff;
+  padding:10px;
+  text-align:center;
+}
+.title-container {
+  padding:20px;
+  background-color: #003c4d;
+  font-size:37px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right:0px;
+  line-height: 45px;
+}
+.spacer-top {
+  height:50px;
+}
+footer {
+  padding:10px;
+  color:#fff;
+  text-align: center;
+}
+.h1header {
+  text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+  text-align: left;
+}
+a:hover {
+  color:#f7dc44;
+  font-size: 101%;
+}
+#header {
+  padding:50px;
+  background-image: url("http://baconteam.com/Assets/Images/bacon.png");
+
+  letter-spacing: 2px;
+  font-size: 150%;
+  font-family: "Oswald","Open Sans",sans-serif;
+}
+#nav {
+  background-color: #333;
+  padding:20px;
+  position: static;
+}
