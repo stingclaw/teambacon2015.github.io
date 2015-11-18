@@ -20,22 +20,6 @@ h1 {
 h2 {
   font-variant-caps: small-caps;
 }
-.inputbutton {
-  font-family:"Open Sans","Avenir Next","Helvetica","Arial",sans-serif;
-  font-weight:bold;
-  color: #fff;
-  padding:10px;
-  text-align:center;
-}
-.title-container {
-  padding:20px;
-  background-color: #003c4d;
-  font-size:37px;
-  text-align: center;
-  padding-left: 0px;
-  padding-right:0px;
-  line-height: 45px;
-}
 .spacer-top {
   height:50px;
 }
@@ -47,9 +31,6 @@ footer {
 .h1header {
   text-align: left;
 }
-h1,h2,h3,h4,h5,h6 {
-  text-align: left;
-}
 a:hover {
   color:#f7dc44;
   font-size: 101%;
@@ -57,13 +38,16 @@ a:hover {
 #header {
   padding:50px;
   background-image: url("http://baconteam.com/Assets/Images/bacon.png");
-
+  background-attachment: fixed;
+  background-size: contain;
   letter-spacing: 2px;
   font-size: 150%;
   font-family: "Oswald","Open Sans",sans-serif;
+  text-shadow: 0px 0px 18px #000;
 }
 #nav {
   background-color: #333;
   padding:20px;
-  position: static;
+  position:fixed;
 }
+.nav-item {color:#fff;} .nav-item:hover {color:#d0ae8a;} .nav-item:active {color:#d5a01a;}
