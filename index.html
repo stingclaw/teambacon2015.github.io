@@ -1,63 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="canonical" href="">
-    <link rel="stylesheet" href="styles.css">
-    <title>Team Bacon</title>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-      var init = function() {
-        $('#easter-eggs').hide();
-        $('#title').click(function() {
-          $(this).toggleClass('egg-rainbow');
-        });
-        $('#easter-eggs-click').click(function() {
-          $('#easter-eggs').toggle(600);
-        });
-      }
-    </script>
-  </head>
-  <body onload="init()">
-    <div id="head">
-      <h1 id="title" draggable="true">TEAM BACON</h1>
-    </div>
-    <div id="body">
-      <p>
-        Love bacon? That's pretty much an obvious answer, because almost all (not including vegetarians) people love it. However, for those of you who are allergic to bacon (is that even possible?) or vegetarians we strongly recommend you not try the meat-free kind. It is really not worth all of your valuable time.
-      </p>
-      <p>
-        Welcome to the official homepage of Team Bacon Ltd! Team Bacon was founded by Caleb Rivera, Landon Fairchild, and Chip Thrasher on May 9th, 2014 and is a "non-profit organization" dedicated to promoting the consumption and love of bacon. Of course, at Team Bacon, we love bacon.
-      </p>
-      <p>
-        <h2>The Story of Team Bacon</h2>
-        I'm sure, if you're a student at Bradford Academy, that you have probably heard of Team Bacon. That is even more likely, if you were here last school year (2013-2014). If you haven't, however, Team Bacon is a sort of "club" for only people who love bacon. If you're a vegetarian, but would still love bacon, you can join. However, recently, Team Bacon has been narrowed down to the 3 founding fathers, Taste, Sizzle, and Texture. But don't be disappointed! There is still something called "External Team Bacon." Anyone who loves bacon may join. If you are a student at Bradford Academy, then you may consider yourself on a higher level of "External Team Bacon." If we (the founding fathers) have told you that you are on a higher level, then you may consider yourself even higher than the students at Bradford who have joined. It's okay if you're not on the highest level. You are honored by the founding fathers even to be in External Team Bacon. After all, you do love bacon!!
-        Anyone who loves bacon is honored by the founding fathers. Well, it all started on May 9th, 2014 at lunch, when it so happened (this was not planned out) that we, the three to-be founding fathers, were eating together. One of us (I can't remember which) had bacon, and sequentially, we all commented extremely positively on the presence of that substance. We decided on having this club between the three of us centered on bacon. Eventually, someone overheard this discussion (it was when we were WALKING down like sensible lunatics) and asked, "Hey, can I do it too?" The three founding fathers had a bit of discussion. Eventually, we came up with "Yes!" and he was our first member. On the 17th of May, 2014, 8 days later, I, Texture, decided we needed a database to store all of our ideas. Yes, it was a website. So we got this very one and it is now the official Team Bacon website that you are probably surfing out of curiosity or in noticing Texture's custom email signature. (Hm...) Apparently, another student, who unfortunately thinks Sausage (which is good) is better than Bacon, (which is better!) decided to make something to "Rise up against" Team Bacon; we later ended up merging/uniting the two teams, despite each's skepticism of the thoughts of the other on bacon/sausage. It is called Team Sausage.
-        It was founded approximately May 19, 2014. <a href="https://bradfordteamsausage.wordpress.com">Read more about Team Sausage...</a>
-      </p>
-      <p>
-        <h2>Bacon Art</h2>
-        Because we can, and because bacon is awesome.
-        <h4>Bacon and Eggs Illustration (by Tom Bartul)</h4>
-        <img src="images/bacon-1.png" alt="bacon-1.png">
-        <h4>Nyan Bacon Cat (by Chip Thrasher)</h4>
-        <img src="images/bacon-2.gif" alt="bacon-2.gif">
-      </p>
-    </div>
-    <div id="foot">
-      <a href="mailto:thechipthrasher@gmail.com"><i class="fa fa-envelope"></i> Contact Us</a>
-      <br>
-      <a href="http://goo.gl/forms/8dlbcOigEj"><i class="fa fa-th-list"></i> Take our Survey</a>
-      <br>
-      <a id="easter-eggs-click"><i class="fa fa-trophy"></i> Easter Eggs</a>
-      <div id="easter-eggs">
-        <ul>
-          <li>Click the "Team Bacon" on the top of the page
-          <li>
-        </ul>
-      </div>
-      <br>
-      Copyright &copy; 2015 Team Bacon.
-    </div>
-  </body>
+	<head>
+		<title>Team Bacon | baconteam.com</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="header">
+			<div id="title">
+			<h1><a href="/">Team Bacon</a></h1>
+			<h3>Because Bacon is Better</h3>
+			</div>
+		</div>
+		<div id="body"><div class="inner">
+		<div class="notice">This site is still in progress! Please check back.</div>
+			<div>
+				Welcome to Team Bacon, the thing that happened 3 years ago! But however long ago Team Bacon "happened", bacon is still just as good as it ever has been, if not better.
+			</div>
+			<div>
+				Bacon is food. We're <em>pretty</em> sure everyone agrees on that. Bacon is good. Most everyone agrees on that, hopefully as many people as possible. Bacon is awesome. We know some people disagree to that, and it grieves our hearts to think of those people. For this reason, we have created <a href="#">Operation Baconator</a>, an operation to unite the world in the love of bacon, located in an underground facility under Iceland.
+			</div>
+			<div>
+				Operation Baconator will begin transmission in early 2018, and will monitor data collected from the entire world and analyze it, optimizing its baconatorial effects on each region of the world.
+			</div>
+			<div id="disqus_thread"></div>
+			<script>
+				var disqus_config = function () {
+				this.page.url = 'http://www.baconteam.com';  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = 'baconteam'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() {
+				var d = document, s = d.createElement('script');
+				s.src = '//baconteam.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                        
+		</div></div>
+	</body>
 </html>

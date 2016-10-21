@@ -1,0 +1,53 @@
+body {
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+#header {
+	padding: 60px 0px;
+	text-align: center;
+	background-image: url(wallpaper.jpg);
+	background-attachment: fixed;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+#body a {
+	font-weight: 700;
+	color: #222222;
+}
+#header h1 {
+	font-weight: 300;
+	margin: 0px 0px 10px 0px;
+	font-size: 40px;
+}
+#header h3 {
+	font-weight: 300;
+	margin: 0px;
+	font-size: 20px;
+}
+.inner {
+	max-width: 800px;
+	margin: auto;
+}
+#disqus_thread {
+	margin-top: 20px;
+}
+#body {
+	padding: 20px;
+	font-weight: 300;
+	line-height: 1.7;
+}
+#title {
+	max-width: 500px;
+	padding: 40px;
+	background: rgba(255,255,255,0.8);
+	margin: auto;
+}
+.notice {
+	padding: 10px;
+	background: #eeeeee;
+	border: 1px solid #dddddd;
+	margin: 10px 0px;
+	border-radius: 5px;
+}
